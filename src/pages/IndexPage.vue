@@ -1,13 +1,20 @@
 <template>
-  <q-page class="flex flex-center">
+  <q-page class="column justify-center items-center">
     <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+      alt="A stick man working"
+      src="~assets/man-working.svg"
+      style="width: 250px; height: 250px"
+    />
+    <h1>EN CONSTRUCCION</h1>
   </q-page>
 </template>
 
 <script setup>
 //
 </script>
+
+<style lang="scss">
+* {
+  background-color: slategray;
+}
+</style>
